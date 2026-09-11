@@ -2,13 +2,13 @@ package mundo;
 
 public abstract class Usuario {
 	private String nombre;
-	private String usuario;
+	private String id;
 	private String password;
 	private String correo;
-	public Usuario(String nombre, String usuario, String password, String correo) {
+	public Usuario(String nombre, String id, String password, String correo) {
 		super();
 		this.nombre = nombre;
-		this.usuario = usuario;
+		this.id = id;
 		this.password = password;
 		this.correo = correo;
 	}
@@ -20,10 +20,10 @@ public abstract class Usuario {
 		this.nombre = nombre;
 	}
 	public String getUsuario() {
-		return usuario;
+		return id;
 	}
 	public void setUsuario(String usuario) {
-		this.usuario = usuario;
+		this.id = usuario;
 	}
 	public String getPassword() {
 		return password;
