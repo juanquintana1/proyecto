@@ -147,3 +147,5 @@ public class Empleado extends Usuario {
         return Objects.hash(getId());
     }
 }
+
+
